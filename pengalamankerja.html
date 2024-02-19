@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1><em>AVIVA APRILIANI</em></h1>
+  <p>1957201047</p>
+</div>
+
+<div class="topnav">
+  <a href="index.html">Home</a><a href="pendidikan.html"><em>pendidikan</em></a>    <a href="hobi.html"><em>hobi</em></a>    <a href="pengalamankerja.html"><em>pengalaman kerja</em></a>    <a href="keahlian.html"><em>keahlian(skill)</em></a>    <a href="organisasi.html"><em>pengalan organisasi</em></a><a href="sosialmedia.html"><em>media sosial</em></a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+       <h2><em>Pengalaman Kerja</em></h2>
+      
+<img src="images/work.jpg" width="337" height="214" /></p>
+<p>-<em>pernah manjadi admin kantor</em></p>
+<p><em>-pernah menjadi kasir di perushan swasta</em></p>
+<p><em>-pernah magang di tabloid Bintang</em></p>
+    </div>
+    
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Alamat</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8700125838473!2d106.917103075732!3d-6.280814361481645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d493ce62ea3%3A0x31eff9957b8cc9d6!2sJl.%20Bojong%20Tua%2C%20RT.001%2FRW.004%2C%20Jatimakmur%2C%20Kec.%20Pd.%20Gede%2C%20Kota%20Bks%2C%20Jawa%20Barat!5e0!3m2!1sen!2sid!4v1708339311323!5m2!1sen!2sid" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+   
+  </div>
+</div>
+
+</body>
+</html>
+
+
